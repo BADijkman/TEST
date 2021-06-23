@@ -145,7 +145,7 @@ main .info-flexcontainer-03 li{
 
 /* social-media container*/
 .social-flexcontainer{
-  
+  width: 40rem;
   margin: 0 _auto;;
   display: flex;
   height: 10rem;
@@ -159,7 +159,7 @@ main .info-flexcontainer-03 li{
   text-align: center;
 }
 .social-media img:hover{
-  height: 9rem;
+  height: 7.9rem;
 }
 
 
