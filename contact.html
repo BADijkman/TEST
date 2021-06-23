@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IJs van Thijs contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid">
+        <!-- Header -->
+        <header>
+            <h1>IJs van Thijs</h1>
+            <img src="img/ijshorentjes3.jpg" alt="ijshorentjes.jpg">
+        </header>
+        <!-- Nav Bar -->
+        <nav>
+           <div class="navbar">
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="smaken.html" target="-self" >Smaken</a></li>
+                    <li><a href="contact.html" target="_self">Contact</a></li>
+                </ul>
+          </div>
+        </nav>
+
+        <main>
+            <!-- Adresbox -->
+            <div class="adresbox">
+                <h4>Ons Adres:</h4>
+                <p>
+                    IJs van Gijs <br>
+                    Roomstraat 14 <br>
+                    1234 AB IJsmuiden <br>
+                    tel: 0255 123 456 <br>
+                    info@ijsvangijs.nl <br>
+                </p>
+            </div>
+
+            <!-- Contactformulier -->
+            <div class="contactformulier">
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="form-container">  
+                        <h2>Contactformulier</h2>
+                        <div class="name-row">
+                            <label for="bedrijfsnaam">Bedrijfsnaam</label>
+                            <input type="text" size="1" maxlength="20" name="bedrijfsnaam" id="bedrijfsnaam"/>
+                        </div>
+                        <div class="name-row">         
+                            <label for="voornaam">Voornaam</label>
+                            <select id="gesacht" name="geslacht">
+                                <option value="dhr">Dhr.</option>
+                                <option value="mevr">Mevr.</option>
+                            </select> 
+                            <input type="text" maxlength="20" name="voornaam" id="voornaam" required />
+                        </div>
+                        <div class="name-row">
+                            <label for="achternaam">Achternaam</label>
+                            <input type="text" maxlength="20" name="achternaam" id="achternaam" required />
+                        </div>
+                        <div class="name-row">
+                            <label for="adres">Adres</label>
+                            <input type="text"  maxlength="20" name="adres" id="adres" required />
+                        </div>
+                        <div class="name-row">
+                            <label for="postcode">Postcode</label>
+                            <input type="text"  maxlength="6" name="postcode" id="postcode" required />
+                        </div>
+                        <div class="name-row">
+                            <label for="plaats">Plaats</label>
+                            <input type="text"  maxlength="20" name="plaats" id="plaats" required />
+                        </div>
+                        <div class="name-row">
+                            <label for="email">Email</label>
+                            <input type="email" maxlength="20" name="email" id="email" required />
+                        </div>
+                        <div class="name-row">
+                            <label for="telefoon">Telefoon</label>
+                            <input type="tel" maxlength="10"   name="telefoon" id="telefoon" />
+                        </div>
+                        <div class="name-row">
+                            <label for="eventdatum">Datum Event</label>
+                            <input type="eventdate" name="eventdatum" id="eventdatum" min="2019-06-10" />
+                        </div>
+                        <div class="name-row">
+                            <label for="bericht">Bericht</label>
+                            <textarea  rows="10" cols="20" id="bericht" name="Bericht">uw bericht</textarea>
+                        </div>
+                        <div class="name-row">
+                            <label for="color">Favoriete smaak IJs&nbsp;(van&nbsp;Gijs)</label>
+                            <select id="ijssmaak" name="ijssmaak">
+                                <option value="keuze">maak uw keuze</option>
+                                <option value="Aardbei">Aardbei </option>
+                                <option value="Advocaat">Advocaat</option>
+                                <option value="Bitterkoekjes">Bitterkoekjes</option>
+                                <option value="Banaan">Banaan</option>
+                                <option value="Karamel">Karamel</option>
+                                <option value="Chocolate Crunch">Chocolate Crunch</option>
+                                <option value="Cookies">Cookies</option>
+                                <option value="Kokosnoot">Kokosnoot</option>
+                                <option value="Koffie">Koffie</option>
+                                <option value="Mokka">Mokka </option>
+                                <option value="Oreo">Oreo</option>
+                                <option value="Pistache">Pistache</option>
+                                <option value="Snickers">Snickers</option>
+                                <option value="Strawberry Cheesecake">Strawberry Cheesecake</option>
+                                <option value="Stracciatella">Stracciatella</option>
+                                <option value="Tiramisu">Tiramisu</option>
+                                <option value="Vanille Bourbon">Vanille Bourbon</option>
+                                <option value="Yogurt">Yogurt</option>
+                                <option value="Yogurt Limoncello">Yogurt Limoncello</option>
+                                <option value="Tony Chocolony witte chocolade">Tony Chocolony wit </option>
+                                <option value="Tony Chocolony zeezout caramel">Tony Chocolony </option>
+                            </select> 
+                        </div >
+                        <div class="button-container">
+                            <button type="reset">Reset</button>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form> 
+            </div>  
+
+            <div class="Ijsboutique">
+                <img src="img/Ijsboutique.jpeg" alt="">
+            </div>
+
+
+        </main>
+
+        <!-- Social-media -->
+        <div class="social-media">
+            <h3> volg ons op social media</h3>
+            <div class="social-flexcontainer">
+                <a href="http://www.facebook.com" target="_blank"><img src="img/social/facebook.png" alt="facebook"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="img/social/insta.png" alt="instagram"></a>
+                <a href="http://www.twitter.com" target="_blank"><img src="img/social/twitter.png" alt="twitter"></a>
+                <a href="http://www.whatsapp.com" target="_blank"><img src="img/social/whats-app.png" alt="whats-app"></a>
+            </div>
+        </div>
+    
+        <!-- Footer -->
+        <footer>
+            <div class="backtotop">
+                <a href="index.html">back to top</a>
+            </div>         
+            <div class="footer-flexcontainer">
+                <div>IJs van Gijs Copyright 2021</div>
+                <div>Powered by <a href="http://www.dykeydesign.nl" title="Dykey_design" target="_blank">Dykey</a> <span class="text-red">design</span></div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
